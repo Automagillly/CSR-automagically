@@ -21,7 +21,9 @@ Download the package and extract the files from the archive.
 
 On the local environment there should be installed python3 with csv, numpy pathlib, os, glob, time shutil, sys, flask, subprocess, zipfile, these are the modules specified at the top of the two python scripts: Function_test.py and CSR_ONE_SHOT_GUI.py
 
-Run CSR_ONE_SHOT_GUI.py then open a browser and access:
+Run Function_test.py if you would like to deal with CLI / linux /MAC promp or Windows cmd
+
+Run CSR_ONE_SHOT_GUI.py if you'd preffer to interact via the a graphical interface,  then open a browser and access:
 
 http://127.0.0.1:5000
 
