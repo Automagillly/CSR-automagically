@@ -13,7 +13,7 @@ Excel can be used for filing out the info and then save the file as CSR_infofile
 
 CommonName.cnf this file is used for ssl configuration and has been adjusted to fit SNA ssl/tsl certs requirement. As a side note this tool can be used to generate CSRs for virtually any technology that employs the use of ssl/tsl certificates. This file must be placed under the same directory as the two python scripts: CSR_ONE_SHOT_GUI.py and Function_test.py.
 
-
+ !!!!!  CountryName	StateName	LocalityName are TWO /2 characters long fields by SSL requirements, forr Italy use IT, for France use FR     !!!!!!!
 
 How to proceed:
 
