@@ -25,5 +25,5 @@ subjectAltName = @alt_names
 #extendedKeyUsage = serverAuth, clientAuth
 
 [alt_names]
-DNS=$CommonName
+DNS.1=$CommonName
 IP.1=$IpAdress
