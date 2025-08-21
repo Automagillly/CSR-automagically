@@ -31,4 +31,4 @@ Upload the CSR_infofile.csv
 give it a bit of time and then you’ll be presented with your CSR archive : csr_files.zip available to download.
 
 
-<img width="540" height="741" alt="image" src="https://github.com/user-attachments/assets/262bc1d1-3d91-423a-be2e-848017a08ae6" />
+
