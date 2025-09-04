@@ -1,17 +1,13 @@
 # CSR-automagically
 CSR automation saves time and effort by creating certificates signing requests in one shot for multiple appliances
-This tool is intended for saving time and efforts dedicated for generating Certificate Signing Requests for Secure Network Analytics, if SNA GUI is used this involves multiple clicks and typing in information for the required input fields.
-
- CSR Manufacturing tool generates all the CSR for all the appliances part of the SNA landscape in one shot 
-It is been briefly tested on SNA 7.4.1 and 7.5.1.
-The performed testing is not exhaustive, therefore there might be some errors here there.
+This tool is intended for saving time and efforts dedicated for generating Certificate Signing Requests fo
 
 Input files:
  CSR_infofile.csv, this file must be filled out with CSR related info, prior running the script.
 Excel can be used for filing out the info and then save the file as CSR_infofile.csv.  DO NOT CHANGE this filename. There are means to upload this file explained in a few paragraph below.
  
 
-CommonName.cnf this file is used for ssl configuration and has been adjusted to fit SNA ssl/tsl certs requirement. As a side note this tool can be used to generate CSRs for virtually any technology that employs the use of ssl/tsl certificates. This file must be placed under the same directory as the two python scripts: CSR_ONE_SHOT_GUI.py and Function_test.py.
+CommonName.cnf this file is used for ssl configuration and has been adjusted to common ssl/tsl certs requirement. This tool can be used to generate CSRs for virtually any technology that employs the use of ssl/tsl certificates. This file must be placed under the same directory as the two python scripts: CSR_ONE_SHOT_GUI.py and Function_test.py.
 
  !!!!!  CountryName	StateName	LocalityName are TWO /2 characters long fields by SSL requirements, forr Italy use IT, for France use FR     !!!!!!!
 
