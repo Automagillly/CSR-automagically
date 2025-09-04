@@ -1,6 +1,7 @@
 # CSR-automagically
-CSR automation saves time and effort by creating certificates signing requests in one shot for multiple appliances
-This tool is intended for saving time and efforts dedicated for generating Certificate Signing Requests fo
+
+This tool is intended for saving time and efforts dedicated for generating Certificate Signing Requests.
+Use it at your own risk.
 
 Input files:
  CSR_infofile.csv, this file must be filled out with CSR related info, prior running the script.
